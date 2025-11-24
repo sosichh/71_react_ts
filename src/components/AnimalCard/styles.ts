@@ -1,4 +1,6 @@
-.animal-card-wrapper {
+import styled from "@emotion/styled";
+
+export const AnimalCardWrapper = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,8 +10,11 @@
     background-color: antiquewhite;
     border-radius: 12px;
     font-size: 24px;
-}
+`;
 
-.animal-card-wrapper > img {
+export const AnimalImage = styled.img`
     width: 100px;
-}
+`;
+
+export const AnimailSpecies = styled.div``;
+export const AnimalName = styled.h3``;
